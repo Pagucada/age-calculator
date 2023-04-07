@@ -1,0 +1,89 @@
+body 
+{
+   background-color: #dbdbdb;
+   font-family: Poppins;
+}
+h2
+{
+    font-weight: 900;
+}
+
+
+    input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.horizontal 
+{
+    width: 80%;
+    float: left;
+    color: #dbdbdb;
+}
+
+.label
+{
+    display: inline;
+    font-size: 11px;
+    margin-left: 10px;
+    letter-spacing: 2px;
+}
+
+div.container
+{
+    background-color: white;
+    margin : auto;
+    margin-top: 90px;
+    width: 40%;
+    padding: 20px;
+    border-radius: 20px;
+    border-bottom-right-radius: 100px;
+}
+.casilla
+{
+    display: block;
+    border: 1px  #dbdbdb solid;
+    margin: 10px;
+    width: 50%;
+    padding: 20px;
+    font-size: 15px;
+    font-weight: bolder;
+    border-radius: 5px;
+    -webkit-appearance: none;
+    -moz-appearance: textfield;
+}
+.card
+{
+    width: 25%;
+    display: inline-block;
+    border-radius: 5px;
+    font-weight: bolder;
+   
+}
+svg
+{
+    margin-top: 16px;
+    margin-left: 15px;
+}
+#bubble
+{
+    position: absolute;
+    right: 35%;
+    top: 210px;
+    width: 80px;
+    height: 80px;
+    color: white;
+    background-color: hsl(259, 100%, 65%);
+    border-radius: 50%;
+}
+.displayedDate
+{
+    font-size: 48px;
+    font-weight: bolder;
+    line-height: 40px;
+}
+.i-violet
+{
+    color: hsl(259, 100%, 65%);
+    font-style: italic;
+}
